@@ -6,6 +6,7 @@ paginate = 8
 googleAnalytics = "UA-123-45" # delete or comment to disable Google Analytics JS generation
 enableRobotsTXT = true # show to search engines
 copyright = "Copyright © sample 2018"
+canonifyurls = true
 
 [author]
   name = "Your Name"
