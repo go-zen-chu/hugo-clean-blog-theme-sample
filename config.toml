@@ -1,0 +1,53 @@
+baseURL = "http://localhost"
+languageCode = "en-us"
+title = "Clean Blog Sample"
+theme = "clean-blog"
+paginate = 8
+googleAnalytics = "UA-123-45" # delete or comment to disable Google Analytics JS generation
+enableRobotsTXT = true # show to search engines
+copyright = "Copyright © sample 2018"
+
+[author]
+  name = "Your Name"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "Sample Clean Blog"
+  Author = "Your Name"
+  # email = "benoit.benedetti@gmail.com" #Remove this line if you would prefer not to use an email button in the footer.
+  postSummariesFrontPage = 8 #Number of post summaries to show on front page, comment out to allow default(4)
+  #showReadTime = true #set to false to exclude read time from header of post
+
+# theses are used in footer
+[[params.social]]
+  title = "linkedin"
+  url = "https://www.linkedin.com/in/your-id"
+
+[[params.social]]
+  title = "github"
+  url = "https://github.com/your-id"
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/your-id"
+
+# theses are used in navbar (order by weight)
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "Posts"
+  url = "/post/"
+  weight = 20
+
+[[menu.main]]
+  name = "About"
+  url = "/about/me"
+  weight = 30
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/contact"
+  weight = 40
