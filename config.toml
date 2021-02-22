@@ -1,11 +1,11 @@
-baseURL = "http://dreamy-hoover-3f3499.netlify.com/" # set for your environment or localhost/
+baseURL = "https://dreamy-hoover-3f3499.netlify.com" # set for your environment or localhost/
 languageCode = "en-us"
 title = "Clean Blog Sample"
 theme = "clean-blog"
 paginate = 8
 googleAnalytics = "UA-123-45" # delete or comment to disable Google Analytics JS generation
 enableRobotsTXT = true # show to search engines
-copyright = "Copyright © sample 2018"
+copyright = "Copyright © sample 2021"
 canonifyurls = true
 
 [author]
