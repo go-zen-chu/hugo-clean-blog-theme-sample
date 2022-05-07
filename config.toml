@@ -5,7 +5,7 @@ theme = "clean-blog"
 paginate = 8
 googleAnalytics = "UA-123-45" # delete or comment to disable Google Analytics JS generation
 enableRobotsTXT = true # show to search engines
-copyright = "Copyright © sample 2021"
+copyright = "Copyright © sample 2022"
 canonifyurls = true
 
 [author]
@@ -15,9 +15,12 @@ canonifyurls = true
   DateForm = "Mon, Jan 2, 2006"
   Description = "Sample Clean Blog"
   Author = "Your Name"
-  # email = "benoit.benedetti@gmail.com" #Remove this line if you would prefer not to use an email button in the footer.
-  postSummariesFrontPage = 8 #Number of post summaries to show on front page, comment out to allow default(4)
-  #showReadTime = true #set to false to exclude read time from header of post
+  # Remove this line if you would prefer not to use an email button in the footer.
+  email = "your.name@sample.com"
+  # Number of post summaries to show on front page, comment out to allow default(4)
+  postSummariesFrontPage = 8
+  # set to false to exclude read time from header of post
+  showReadTime = true
 
 # theses are used in footer
 [[params.social]]
