@@ -53,5 +53,5 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Contact"
-  url = "/contact/contact"
+  url = "/contact/me"
   weight = 40
